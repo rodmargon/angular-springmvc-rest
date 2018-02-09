@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.mycompany.springmvcrest.Constants;
+
 @Configuration
 @ComponentScan(
         basePackageClasses = {Constants.class},
